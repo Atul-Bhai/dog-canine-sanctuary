@@ -111,7 +111,16 @@ function Login() {
       <div className="auth-image-side">
         <div className="auth-image-overlay">
           <Link to="/" className="auth-logo">
-            <img src="/logo.jpeg" alt="Dog Canine Sanctuary" />
+            <img
+              src="/logo.jpeg"
+              alt="Dog Canine Sanctuary"
+              style={{
+                width: "80px",
+                height: "80px",
+                objectFit: "contain",
+                borderRadius: "50%",
+              }}
+            />
             <div>
               <strong>Dog Canine</strong>
               <span>Sanctuary</span>
