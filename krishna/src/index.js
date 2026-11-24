@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-
+document.title = "Dog Canine Sanctuary | Care & Rescue";
 // Automatically inject Tailwind CSS if not already loaded
 if (!document.getElementById("tailwind-cdn")) {
   const script = document.createElement("script");
